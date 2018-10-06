@@ -136,7 +136,7 @@ h1.h1-content {
 
 .profile-pic {
     float: left;
-    margin: 10px 20px 10px 0;
+    margin: 10px 16px 0px 0px;
 }
 
 .copyright {
@@ -146,4 +146,11 @@ h1.h1-content {
 
 .bio-area {
     padding: 0;
+}
+
+@media screen and (max-width: 640px) {
+    .profile-pic {
+        min-width: 100%;
+        margin: 10px 16px 16px 0px;
+    }
 }
