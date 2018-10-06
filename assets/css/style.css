@@ -1,11 +1,12 @@
 /* Global Classes */
-
-html, body {
-    height: 100%;
-    }
+html {
+    position: relative;
+    min-height: 100%;
+  }
 
 body {
     background-image: url("../images/dust_scratches.png");
+    margin-bottom: 120px;
     }
 
 h1 {
@@ -76,10 +77,14 @@ a:hover {
 
 footer.footer{
     margin-top: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     background-color: #666;
     border-top: 8px solid #4aaaa5;
     padding: 40px 0 20px 0;
+    display: block;
 }
 
 .btn {
